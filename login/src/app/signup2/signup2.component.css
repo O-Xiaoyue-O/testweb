@@ -1,0 +1,37 @@
+.label1 {
+    width: 240px;
+    height: 35px;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+}
+
+.label2 {
+    width: 191px;
+    height: 35px;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+}
+
+.next {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.last {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 20px;
+}

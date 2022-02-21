@@ -1,0 +1,79 @@
+/* 沒有帳號？ */
+
+.text1 {
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+
+/* 註冊 */
+
+#signup {
+    text-decoration-line: underline;
+    color: #0c56d0;
+}
+
+
+/* Email */
+
+input[type='email'] {
+    width: 404px;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+
+/* password */
+
+input[type='password'] {
+    /* input */
+    width: 404px;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+
+/* Button */
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px 24px;
+    position: absolute;
+    width: 404px;
+    height: 36px;
+    background: #0c56d0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    /* Button */
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    /* identical to box height */
+    color: #ffffff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+button:hover {
+    background: #ffffff;
+    color: #0c56d0;
+}

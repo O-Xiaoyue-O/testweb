@@ -1,0 +1,18 @@
+header {
+    height: 204.8px;
+    width: 100%;
+    background: #000000;
+}
+
+
+/* title */
+
+a {
+    text-decoration: none;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 150px;
+    color: #ffffff;
+}

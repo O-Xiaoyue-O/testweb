@@ -1,0 +1,67 @@
+<app-header></app-header>
+<app-signupnav></app-signupnav>
+
+<body>
+    <div class="container">
+        <br><br>
+        <div class="row">
+            <br>
+            <div class="col d-flex justify-content-center align-items-center">
+                <button class="last" name="last" routerLink="/signup2">&#60;</button>
+            </div>
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <div class="name">
+                        <input type="text" class="form-control" name="name" value="123" placeholder="姓名" disabled>
+                    </div>
+                </div>
+                <br>
+                <div class="d-flex justify-content-center">
+                    <div class="email">
+                        <input type="email" class="form-control" name="email" value="123@123.com" placeholder="電子信箱" disabled>
+                    </div>
+                </div>
+                <br>
+                <div class="passwd">
+                    <input type="password" class="form-control" name="passwd" value="123" placeholder="密碼" disabled>
+                </div>
+                <br>
+                <div class="iden">
+                    <input type="text" class="form-control" name="identity" value="123" placeholder="身分" disabled>
+                </div>
+                <br>
+                <div class="edu">
+                    <input type="text" class="form-control" name="education" value="NPUST" placeholder="教育程度" disabled>
+                </div>
+            </div>
+            <div class="col">
+                <p class="label1">是否有參加過瘋狂程設</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="codeyes" value="codeyes" disabled>
+                    <label class="form-check-label" for="inlineRadio1">是</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="codeno" value="codeno" checked disabled>
+                    <label class="form-check-label" for="inlineRadio2">否</label>
+                </div>
+                <p class="label2">是否有參加過CPE</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="cpeyes" value="cpeyes" disabled>
+                    <label class="form-check-label" for="inlineRadio1">是</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio2" value="cpeno" checked disabled>
+                    <label class="form-check-label" for="inlineRadio2">否</label>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+        <br>
+        <div class="d-flex justify-content-center">
+            <a routerLink="/login" class="button">建立</a>
+        </div>
+        <br>
+        <br>
+    </div>
+</body>
+<app-footer></app-footer>

@@ -1,0 +1,24 @@
+footer {
+    height: 102.4px;
+    width: 100%;
+    background: #4DA8DA;
+    position: absolute;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.copyright {
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
